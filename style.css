@@ -19,6 +19,10 @@ body {
     margin-right: 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 #title {
     /* border: 1px lightblue solid; */
     font-size: 46px;
@@ -54,10 +58,22 @@ li {
     margin: 16px 0;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 750px) {
     h2 {
-        font-size: 3.5rem;
+        font-size: 55px; 
     }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 35px; 
+    }
+}
+
+@media (max-width: 450px) {
+    /* h2 {
+        font-size: 25px;
+    } */
     #main {
         margin: 0;
     }
