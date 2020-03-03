@@ -9,15 +9,31 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: var(--color-white);
     background-image: linear-gradient(
       115deg,
       rgba(58, 58, 158, 0.3),
       rgba(136, 136, 206, 0.6)
     ),
     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+}
+
+#title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#description {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 #content {
     text-align: center;
+}
+
+#form {
+    background-color: var(--color-darkblue-alpha);
 }
