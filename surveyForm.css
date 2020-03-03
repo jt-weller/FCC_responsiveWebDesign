@@ -36,4 +36,21 @@ body {
 
 #form {
     background-color: var(--color-darkblue-alpha);
+    /* padding: 2.5rem 0.6rem; */
+    padding: 20px;
+    border-radius: 0.25rem;
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+input {
+    font-family: inherit;
+    font-size: inherit;
 }
