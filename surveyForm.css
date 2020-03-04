@@ -50,6 +50,12 @@ label {
     font-size: 1.2em;
 }
 
+#radioBtn {
+    display: flex;
+    text-align: left;
+    font-size: 1.2em;
+}
+
 input, select {
     font-family: inherit;
     font-size: inherit;
