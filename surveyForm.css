@@ -50,7 +50,7 @@ label {
     font-size: 1.2em;
 }
 
-input {
+input, select {
     font-family: inherit;
     font-size: inherit;
     width: 100%;
