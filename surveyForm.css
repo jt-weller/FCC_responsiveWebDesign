@@ -68,3 +68,7 @@ input[type=text], input[type=email], input[type=number], select {
     margin-bottom: 5px;
 }
 
+span {
+    font-size: medium;
+    margin: 4px 0 0 5px;
+}
