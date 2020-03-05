@@ -68,6 +68,3 @@ input[type=text], input[type=email], input[type=number], select {
     margin-bottom: 5px;
 }
 
-#userRec {
-    float: left;
-}
