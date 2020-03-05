@@ -5,6 +5,7 @@
     --color-darkblue: #1b1b32;
     --color-darkblue-alpha: rgba(27,27,50,0.8);
     --color-green: #37af65;
+    --color-greyblue: #80bdff;
 }
 
 body {
@@ -68,7 +69,18 @@ input[type=text], input[type=email], input[type=number], select {
     margin-bottom: 18px;
 }
 
+#formGroup:focus {
+    border-color: var(--color-greyblue);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
 span {
     font-size: medium;
     margin: 4px 0 0 5px;
+}
+
+#comments {
+    width: 100%;
+    padding-bottom: 100px;
 }
