@@ -64,6 +64,10 @@ input[type=text], input[type=email], input[type=number], select {
     border-color: var(--color-white);
 }
 
+#formGroup {
+    margin-bottom: 5px;
+}
+
 #userRec {
     float: left;
 }
