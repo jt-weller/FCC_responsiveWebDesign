@@ -56,20 +56,21 @@ label {
     margin: 0;
 }
 
-input[type=text], input[type=email], input[type=number], select {
+input[type=text], input[type=email], input[type=number], select, textarea {
     font-family: inherit;
     font-size: inherit;
     width: 100%;
     margin-bottom: 18px;
     border-radius: 0.25rem;
-    border-color: var(--color-white);
+    /* border-color: var(--color-white); */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 #formGroup {
     margin-bottom: 18px;
 }
 
-#formGroup:focus {
+#formGroup:focus, input:focus, #comments:focus {
     border-color: var(--color-greyblue);
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
