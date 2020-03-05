@@ -46,21 +46,24 @@ body {
 
 label {
     display: flex;
-    align-items: center;
     font-size: 1.2em;
 }
 
 #radioBtn {
     display: flex;
-    text-align: left;
     font-size: 1.2em;
+    margin: 0;
 }
 
-input, select {
+input[type=text], input[type=email], input[type=number], select {
     font-family: inherit;
     font-size: inherit;
     width: 100%;
     margin-bottom: 10px;
     border-radius: 0.25rem;
     border-color: var(--color-white);
+}
+
+#userRec {
+    float: left;
 }
